@@ -1,6 +1,14 @@
+"""
+This module is a part of the sensorpy package.
+
+Saurav R. Tuladhar (@sauravrt)
+"""
+
 class AlphaFilter:
+    """
+    AlphaFilter class implements the Alpha filter.
+    """
     _alpha = 0.2
-    _SPEED_ACCEL_LIMIT = 19.05
 
     def __init__(self, x=0):
         self.x = x
